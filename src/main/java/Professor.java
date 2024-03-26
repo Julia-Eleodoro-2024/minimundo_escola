@@ -29,19 +29,3 @@ public class Profesor {
          
        }
 
-    private int getIdade() {
-        return this.idade;
-            }
-
-    private void int setIdade(int idade) {
-          this.idade = idade
-        }
-
-    private String getSalario() {
-        return this.sexo;
-    }
-
-   private void setSalario(double salario) {
-       return.sexo = sexo
-       }
- }
