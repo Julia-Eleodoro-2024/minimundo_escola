@@ -1,6 +1,9 @@
 public class Aluno {
     // Atributos
     private String nome;
+    private int idade;
+    private String sexo;
+    
     
     // Construtor
     public Aluno(String nome, int idade, String sexo) {
@@ -8,7 +11,7 @@ public class Aluno {
       
     }
 
-    // Métodos para acessar os atributos (Getters e Setters)
+    // Métodos para acessar os atributos 
     public String getNome() {
         return this.nome;
     }
@@ -16,6 +19,7 @@ public class Aluno {
     public void setNome(String nome) {
         this.nome = nome;
       }
+    
      private void validarNome(String nome){
        String regex
        boolean teste = nome.matches(regex);
