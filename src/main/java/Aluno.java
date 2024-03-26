@@ -12,11 +12,11 @@ public class Aluno {
     }
 
     // Métodos para acessar os atributos 
-    public String getNome() {
+    private String getNome() {
         return this.nome;
     }
 
-    public void setNome(String nome) {
+    private void setNome(String nome) {
         this.nome = nome;
       }
     
@@ -27,6 +27,22 @@ public class Aluno {
          this.nome = nome
      } else {
          
-     }
+       }
+
+    private int getIdade() {
+        return this.idade;
+            }
+
+    private void int setIdade(int idade) {
+          this.idade = idade
+        }
+
+    private String getSexo() {
+        return this.sexo;
+    }
+
+   private void setSexo(String sexo) {
+       return.sexo = sexo
+       }
  }
 
