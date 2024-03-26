@@ -2,7 +2,7 @@ public class Profesor {
     // Atributos
     private String nome;
     private int idade;
-    private String sexo;
+    private double salario;
     
     
     // Construtor
@@ -37,11 +37,11 @@ public class Profesor {
           this.idade = idade
         }
 
-    private String getSexo() {
+    private String getSalario() {
         return this.sexo;
     }
 
-   private void setSexo(String sexo) {
+   private void setSalario(double salario) {
        return.sexo = sexo
        }
  }
